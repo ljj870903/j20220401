@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #393c47;
+    padding: 8px 12px;   
+    width: 100%;
+    font-family: monospace;
+}
+
+.footer div h2{
+    color: white;
+    font-size: 15px;
+}
+
+.footer div ul li{
+    color: white;
+    list-style: none;
+    padding: 8px 10px;
+}
+
+.footer div ul li:hover {
+    background-color: #d49466;
+    border-radius: 4px;
+}
